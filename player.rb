@@ -16,7 +16,7 @@ class Player
     val1 = rand(1...20)
     val2 = rand(1...20)
     right_answer = val2+val1
-    puts "#{@name}: What does #{val1} plus #{val2} equal"
+    puts "#{@name}: What does #{val1} plus #{val2} equal?"
     answer = gets.to_i
     if right_answer == answer
       puts "Yes! You are correct!"    
